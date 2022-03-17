@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cont {
+  padding: 0rem;
+  width: 1140px;
+  margin:10px auto;
+  /* border: 1px solid black; */
+  height: 80vh;
+  /* justify-content: center; */
+  background: rgb(243, 243, 243);
+}
+.row {
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+  flex-flow: row wrap;
+}
+.row [class*="col-"] {
+  display: block;
+  padding: 0.5rem;
+  /* border: 1px solid black; */
+  
+}
+.col-1 {
+  width: 8.333%;
+  flex-basis: 8.333%;
+}
+.col-2 {
+  width: 16.666%;
+  flex-basis: 16.666%;
+  
+}
+.col-3  {
+  width: 25%  ;
+  flex-basis: 25%  ;
+}
+.col-4  {
+  width: 33.333% ;
+  flex-basis: 33.333% ;
+  font-size: 12px;
+}
+.col-5 {
+  width: 41.666% ;
+  flex-basis: 41.666% ;
+}
+.col-6  {
+  width: 50% ;
+  flex-basis: 50% ;
+}
+.col-7  {
+  width: 58.333% ;
+  flex-basis: 58.333% ;
+}
+.col-8  {
+  width: 66.666% ;
+  flex-basis: 66.666% ;
+}
+.col-9  {
+  width: 75% ;
+  flex-basis: 75% ;
+}
+.col-10  {
+  width: 83.333%  ;
+  flex-basis: 83.333% ;
+}
+.col-11 {
+  width: 91.666%;
+  flex-basis: 91.666%;
+}
+.col-12 {
+  width: 100% ;
+  flex-basis: 100% ;
+}
+/* .box1 {
+  height: 200px;
+} */
+
+.col-2 {
+  padding: 0px;
+}
+.box {
+  display: block;
+  border-radius: 30%;
+  width: 20px;
+  height: 20px;
+  background: coral;
+  
+
+}
